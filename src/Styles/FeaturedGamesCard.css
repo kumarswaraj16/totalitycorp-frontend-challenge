@@ -1,0 +1,82 @@
+.featuredGamesHeading {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.latest-games{
+    text-align: center;
+}
+.latest-games-btn {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.latest-games-btn:hover {
+    transition: .2s ease-in-out;
+    font-size: 25px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 0 50px;
+    }
+  .card .img__wrap > img {
+    max-width: 100%;
+  }
+.grid-wrapper {
+    width: 75%;
+    text-align: center;
+    margin-left: 192px;
+}  
+
+.img__wrap {
+    position: relative;
+  }
+  
+  .img__description_layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 75px;
+    background: linear-gradient(90deg, rgba(211, 36, 65, 0.8), rgba(110, 86, 229, 0.8)) !important;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .2s, visibility .2s;
+  }
+
+  .img__description_layer > img {
+    max-width: 40%;
+  }
+  
+  .card:hover .img__description_layer {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .img__description {
+    transition: .2s;
+    transform: translateY(1em);
+  }
+  
+  .card:hover .img__description {
+    transform: translateY(0);
+  }

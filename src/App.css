@@ -1,0 +1,45 @@
+.homePageImage{
+  background-image: url("https://media.contentapi.ea.com/content/dam/eacom/common/ts4-project-sunrise-xl.jpg.adapt.1920w.jpg");
+  min-height: 720px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.stackedImage {
+  margin-top: 60px !important;
+  width: 500px !important;
+  padding: 30px !important;
+}
+
+.mainText {
+  color: #fff;
+  font-size: 40px !important;
+  margin-left: 320px !important;
+  width: 500px !important
+}
+
+.playButton {
+  font-size: 15px !important;
+  margin-left: 500px !important;
+  width: 150px !important;
+  height: 50px; 
+  cursor: pointer;
+}
+
+.flagImage {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzP7kVUymZjg-Gg_VRIpbPwGWLKqmoWEJBPw&usqp=CAU");
+  min-height: 120px;
+  width: 1518px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: relative;
+  margin-top: -18px;
+}
+.flagText {
+  color: #fff;
+  padding-top: 50px;
+  padding-left: 200px;
+}

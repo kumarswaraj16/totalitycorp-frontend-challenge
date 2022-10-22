@@ -1,0 +1,55 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 0 50px;
+}
+
+.grid-wrapper {
+  width: 75%;
+  text-align: center;
+  margin-left: 192px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform ease 300ms;
+}
+.card > img {
+  max-width: 100%;
+}
+
+.card:hover {
+    transform: translate(0, -10px);
+  }
+
+.companyDetails {
+  display: flex;
+  padding-left: 20px;
+}
+.companyNames {
+  font-weight: 700;
+  color: red;
+}
+.date {
+  font-weight: 700;
+  color: black;
+  margin-left: 20px;
+}
+.cardHeading {
+  white-space: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+  margin-left: 10px;
+}
+.cardContent {
+  white-space: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  padding-top: 20px;
+}

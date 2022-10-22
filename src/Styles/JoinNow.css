@@ -1,0 +1,61 @@
+.joinNowImage {
+  background-image: url("https://media.contentapi.ea.com/content/dam/eacom/subscription/ea-play-platform-landing-page/images/2021/01/hero-medium-console-7x2-xl.jpg.adapt.crop7x2.1920w.jpg");
+  min-height: 400px;
+  width: 1518px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: relative;
+}
+.joinNowText {
+  color: #fff;
+  width: 500px;
+  padding-left: 200px;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+}
+.joinNowButton {
+  font-size: 15px !important;
+  margin-left: 200px !important;
+  margin-top: 10px;
+  width: 150px !important;
+  height: 50px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+.playImage {
+  margin-left: 200px !important;
+  padding-top: 90px !important;
+}
+.joinNowButton:hover {
+  transition: all;
+  width: 180px;
+  height: 60px;
+}
+.learnMore{
+  min-height: 100px;
+  width: 1518px;
+  margin-top: -50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: relative;
+  background-color: rgb(87, 176, 227);
+}
+.learn-more-text {
+  padding-top: 30px;
+  padding-left: 200px;
+}
+.learn-more-btn {
+    font-size: 15px !important;
+    margin-left: 400px !important;
+    margin-top: -20px !important;
+    width: 150px !important;
+    height: 50px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #000;
+    border-color: #000;
+  }
